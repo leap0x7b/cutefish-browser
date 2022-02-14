@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=Browser
+Name[zh_CN]=浏览器
+Exec=/usr/bin/cutefish-browser
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+GenericName=Web Browser
+GenericName[zh_CN]=网页浏览器
+Comment=Cutefish Web Browser
+Comment[zh_CN]=Cutefish 网页浏览器
+Icon=web-browser
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupNotify=true

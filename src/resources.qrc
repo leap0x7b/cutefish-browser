@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/">
+        <file>ApplicationRoot.qml</file>
+        <file>BrowserDialog.qml</file>
+        <file>BrowserTab.qml</file>
+        <file>BrowserWindow.qml</file>
+        <file>DownloadView.qml</file>
+        <file>FindBar.qml</file>
+        <file>FullScreenNotification.qml</file>
+        <file>images/light/add.svg</file>
+        <file>images/light/close.svg</file>
+        <file>images/light/previous.svg</file>
+        <file>images/light/next.svg</file>
+        <file>images/light/refresh.svg</file>
+        <file>images/dark/add.svg</file>
+        <file>images/dark/close.svg</file>
+        <file>images/dark/previous.svg</file>
+        <file>images/dark/next.svg</file>
+        <file>images/dark/refresh.svg</file>
+    </qresource>
+</RCC>
