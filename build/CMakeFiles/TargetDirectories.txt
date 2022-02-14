@@ -1,9 +1,0 @@
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/cutefish-browser.dir
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/translations.dir
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/edit_cache.dir
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/rebuild_cache.dir
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/list_install_components.dir
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/install.dir
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/install/local.dir
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/install/strip.dir
-/home/leapofazzam/cutefish-browser/build/CMakeFiles/cutefish-browser_autogen.dir
