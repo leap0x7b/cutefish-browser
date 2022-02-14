@@ -456,8 +456,10 @@ FishUI.Window {
                 browserWindow.close();
         }
 
-        Layout.fillWidth: true
-        Layout.fillHeight: true
+        anchors.top: parent.top
+        anchors.bottom: devToolsView.top
+        anchors.left: parent.left
+        anchors.right: parent.right
         Component.onCompleted: createEmptyTab(defaultProfile)
 
         Component {

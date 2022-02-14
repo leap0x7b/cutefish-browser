@@ -1,0 +1,38 @@
+{
+	"BUILD_DIR" : "/home/leapofazzam/cutefish-browser/build/cutefish-browser_autogen",
+	"CMAKE_BINARY_DIR" : "/home/leapofazzam/cutefish-browser/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/leapofazzam/cutefish-browser/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/leapofazzam/cutefish-browser",
+	"CMAKE_SOURCE_DIR" : "/home/leapofazzam/cutefish-browser",
+	"INCLUDE_DIR" : "/home/leapofazzam/cutefish-browser/build/cutefish-browser_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/leapofazzam/cutefish-browser/src/BrowserTab.qml",
+		"/home/leapofazzam/cutefish-browser/src/FindBar.qml",
+		"/home/leapofazzam/cutefish-browser/src/FullScreenNotification.qml",
+		"/home/leapofazzam/cutefish-browser/src/BrowserDialog.qml",
+		"/home/leapofazzam/cutefish-browser/src/DownloadView.qml",
+		"/home/leapofazzam/cutefish-browser/src/BrowserWindow.qml",
+		"/home/leapofazzam/cutefish-browser/src/ApplicationRoot.qml",
+		"/home/leapofazzam/cutefish-browser/src/images/light/refresh.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/light/close.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/light/add.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/light/next.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/light/previous.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/dark/refresh.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/dark/close.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/dark/add.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/dark/next.svg",
+		"/home/leapofazzam/cutefish-browser/src/images/dark/previous.svg"
+	],
+	"LOCK_FILE" : "/home/leapofazzam/cutefish-browser/build/CMakeFiles/cutefish-browser_autogen.dir/AutoRcc_resources_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/leapofazzam/cutefish-browser/build/CMakeFiles/cutefish-browser_autogen.dir/AutoRcc_resources_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/leapofazzam/cutefish-browser/src/resources.qrc",
+	"VERBOSITY" : 0
+}

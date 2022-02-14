@@ -78,8 +78,15 @@ Item {
         anchors.topMargin: FishUI.Units.smallSpacing / 2
         spacing: 0
 
+        FishUI.BusyIndicator {
+            width: 24
+            height: 24
+            visible: icon == '' && true
+        }
+
         Image {
             id: _image
+            visible: icon != '' && true
             objectName: "image"
             fillMode: Image.PreserveAspectFit
             sourceSize: Qt.size(16, 16)

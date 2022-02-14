@@ -78,7 +78,7 @@ static QUrl startupUrl()
 
 int main(int argc, char **argv)
 {
-    QCoreApplication::setOrganizationName("QtExamples");
+    QCoreApplication::setOrganizationName("cutefishos");
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QtWebEngine::initialize();
 

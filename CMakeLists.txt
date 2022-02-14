@@ -24,13 +24,14 @@ execute_process(COMMAND ${QT_QMAKE_EXECUTABLE} -query QT_INSTALL_QML
     OUTPUT_STRIP_TRAILING_WHITESPACE
 )
 if(INSTALL_QMLDIR)
-    message(STATUS "qml directory:" "${INSTALL_QMLDIR}")
+    message(STATUS "qml directory: " "${INSTALL_QMLDIR}")
 else()
     message(FATAL_ERROR "qml directory cannot be detected.")
 endif()
 
 set(SRCS
     src/main.cpp
+    src/utils.h
 )
 
 set(RESOURCES

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-729b86f38256eea6c1ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cutefish-browser",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cutefish-browser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cutefish-browser-3aedf56f81f064bb14af.json",
+					"name" : "cutefish-browser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cutefish-browser_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cutefish-browser_autogen-4c27c0243ad3250de619.json",
+					"name" : "cutefish-browser_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-translations-494e0717b405aaed094e.json",
+					"name" : "translations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leapofazzam/cutefish-browser/build",
+		"source" : "/home/leapofazzam/cutefish-browser"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
