@@ -48,27 +48,31 @@
 **
 ****************************************************************************/
 
+import FishUI 1.0 as FishUI
 import QtQuick 2.1
 import QtWebEngine 1.9
-import FishUI 1.0 as FishUI
 
 FishUI.Window {
     id: window
+
     property alias currentWebView: webView
+
     flags: Qt.Dialog | Qt.WindowStaysOnTopHint
     width: 800
     height: 600
     visible: true
     onClosing: destroy()
+
     WebEngineView {
         id: webView
-        anchors.fill: parent
 
+        anchors.fill: parent
         onGeometryChangeRequested: function(geometry) {
-            window.x = geometry.x
-            window.y = geometry.y
-            window.width = geometry.width
-            window.height = geometry.height
+            window.x = geometry.x;
+            window.y = geometry.y;
+            window.width = geometry.width;
+            window.height = geometry.height;
         }
     }
+
 }

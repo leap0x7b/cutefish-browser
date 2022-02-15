@@ -60,28 +60,26 @@ Rectangle {
     property int activeMatch: 0
     property alias text: findTextField.text
 
+    signal findNext()
+    signal findPrevious()
+
     function reset() {
         numberOfMatches = 0;
         activeMatch = 0;
         visible = false;
     }
 
-    signal findNext()
-    signal findPrevious()
-
     width: 250
     height: 35
     radius: 2
-
     border.width: 1
     border.color: "black"
     color: "white"
-
     onVisibleChanged: {
         if (visible)
             findTextField.forceActiveFocus();
-    }
 
+    }
 
     RowLayout {
         anchors.fill: parent
@@ -89,7 +87,6 @@ Rectangle {
         anchors.bottomMargin: 5
         anchors.leftMargin: 10
         anchors.rightMargin: 10
-
         spacing: 5
 
         Rectangle {
@@ -98,18 +95,22 @@ Rectangle {
 
             TextField {
                 id: findTextField
+
                 anchors.fill: parent
-
-                style: TextFieldStyle {
-                    background: Rectangle {
-                        color: "transparent"
-                    }
-                }
-
                 onAccepted: root.findNext()
                 onTextChanged: root.findNext()
                 onActiveFocusChanged: activeFocus ? selectAll() : deselect()
+
+                style: TextFieldStyle {
+
+                    background: Rectangle {
+                        color: "transparent"
+                    }
+
+                }
+
             }
+
         }
 
         Label {
@@ -142,5 +143,7 @@ Rectangle {
             text: "x"
             onClicked: root.visible = false
         }
+
     }
+
 }
